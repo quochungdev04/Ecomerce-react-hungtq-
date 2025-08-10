@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='flex flex-col gap-14 sm:flex-row sm:justify-between'>
                 {/* Logo và mô tả */}
                 <div className='sm:w-1/3'>
-                    <img src={assets.logo} className='mb-5 w-32' alt='' />
+                    <img src={assets.logo} className='w-32 mb-5' alt='' />
                     <p className='text-gray-600'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
 

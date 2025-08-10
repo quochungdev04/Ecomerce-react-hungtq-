@@ -16,8 +16,8 @@ const SearchBar = () => {
         //console.log(location.pathname);
     }, [location]);
     return showSearch && visible ? (
-        <div className='py-4 text-center bg-gray-50 border-t border-b'>
-            <div className='inline-flex justify-center items-center px-5 py-2 mx-3 w-3/4 rounded-full border border-gray-400 sm:w-1/2'>
+        <div className='py-4 text-center border-t border-b bg-gray-50'>
+            <div className='inline-flex items-center justify-center w-3/4 px-5 py-2 mx-3 border border-gray-400 rounded-full sm:w-1/2'>
                 <input className='flex-1 text-sm outline-none bg-inherit' type='text' placeholder='Search' value={search} onChange={(e) => setSearch(e.target.value)} />
                 <img className='w-4' src={assets.search_icon} alt='' />
             </div>
